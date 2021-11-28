@@ -47,15 +47,6 @@ body {
     background-color: #ccc;
     border-radius: 50%;
 }
-@keyframes cycle {
-    0% {transform: rotateZ(0)}
-    100% { transform: rotateZ(360deg)
-    }
-}
-@keyframes self-cycle {
-    0% { transform: rotateZ(0)}
-    100%{ transform: rotateZ(-360deg)}
-}
 .venuse {
     position: absolute;
     top: -100%;
@@ -110,4 +101,13 @@ body {
     width: 5px;
     background-color: #fff;
     border-radius: 50%;
+}
+@keyframes cycle {
+    0% {transform: rotateZ(0)}
+    100% { transform: rotateZ(360deg)
+    }
+}
+@keyframes self-cycle {
+    0% { transform: rotateZ(0)}
+    100%{ transform: rotateZ(-360deg)}
 }
