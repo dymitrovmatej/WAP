@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+   background-color: #4b5320;
+}
+
+#Tanky{
+    background-color: #51534E;
+}
+
+#Stíhačky{
+     background-color: #4b5320;
+}
+
+#Zbraně{
+     background-color: #51534E;
+}
+
+#Výbava{
+     background-color: #4b5320;
+}
+
+h1{
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+
+
+div.Home {
+ position: absolute;
+ transform: translate(-50%, -50%);
+ top: 50%;
+ left: 50%;
+  border-radius: 25px;
+  background: #51534E;
+  padding: 20px;
+  width: 500px;
+  height: 90px;
+  text-align: center;
+}
+
+div.zacatek {
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+
+.parent {
+    border:1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.child2 {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+
+
+
+
+.Tanky {
+    position: absolute;
+ transform: translate(-50%, -50%);
+ top: 50%;
+ left: 50%;
+  border-radius: 25px;
+  background-color: #4b5320;
+  padding: 80px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+}
+
+.Stíhačky {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+     border-radius: 25px;
+     background-color: #51534E;
+     padding: 80px;
+     width: 500px;
+     height: 250px;
+     text-align: center;
+}
+
+.Zbraně {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+     border-radius: 25px;
+     background-color: #4b5320;
+     padding: 80px;
+     width: 500px;
+     height: 250px;
+     text-align: center;
+}
+
+.Výbava {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+     border-radius: 25px;
+     background-color: #51534E;
+     padding: 80px;
+     width: 500px;
+     height: 250px; 
+     text-align: center;
+}
