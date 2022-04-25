@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Codystar&display=swap");
+body {
+  position: absolute;
+  height: 90%;
+  width: 99%;
+  background-color: #0f1111;
+  color: white;
+  font-family: 'Codystar', cursive;
+  text-align: center;
+}
+
+table {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  height: 100%;
+}
+
+h1 {
+  color: #20f520;
+}
+
+h2 {
+  color: #20f520;
+}
+
+th {
+  border: 1px solid;
+}
+
+td {
+  border: 1px solid;
+}
+/*# sourceMappingURL=style.css.map */
